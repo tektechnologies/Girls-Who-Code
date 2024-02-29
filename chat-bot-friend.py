@@ -2,20 +2,26 @@
 
 #chatbot introduces themself
 print("Hello! I'm Gabby the chatbot.")
+# asign user input to our variable name
 name = input("What's your name? ")
-
+# use the print method to see output in the console.
 print("Let's see if I can spell that:")
 
 #Add Part 5 code here
+# asign the list method and name input to variable name_list
 name_list = list(name)
+#now print that variable to see the name_list variable output in the console
 print(name_list)
 
+# create a for loop that iterates over each letter in our string and prints out those 'letters' to the console
 for letter in name_list:
   print(letter)
-
+# using the print method again to reuse the name variable again thats useful
 print("Nice to meet you " + name)
 
 #chatbot asks questions
+
+# what method are we using here to 'print' to the console? what will we see? //
 print("Can you tell me about yourself?")
 
 #add Part 2 Step 2 code in this section
@@ -52,5 +58,6 @@ while True:
     
   else:
     print("Sorry, I didn't catch that. ")
+
 
 print("Thanks for chatting with me! See you soon!")
