@@ -66,13 +66,13 @@ print("Thanks for chatting with me! See you soon!")
 
 #add triangle https://www.geeksforgeeks.org/programs-printing-pyramid-patterns-python/
 # Function to demonstrate printing pattern triangle
-def pryamid(n):
+def pryamid(numberOfSpaces):
      
     # number of spaces
-    k = n - 1
+    k = numberOfSpaces - 1
  
     # outer loop to handle number of rows
-    for i in range(0, n):
+    for i in range(0, numberOfSpaces):
      
         # inner loop to handle number spaces
         # values changing acc. to requirement
@@ -93,7 +93,7 @@ def pryamid(n):
         print("\r")
  
 # Driver Code
-n = 5
-pryamid(n)
+numberOfSpaces = 5
+pryamid(numberOfSpaces)
 
 
