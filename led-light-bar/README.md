@@ -9,5 +9,4 @@
 
 <https://thonny.org/>
 
- ![Connect Thony to Pico](images/connectToThonny.png)
- 
+ ![Connect Thony to Pico](/images/connectToThonny.png)
